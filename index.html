@@ -10,35 +10,79 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-3 col-xxl-2">
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Explore</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Notification</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Messages</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Lists</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Communities</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Profile</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">More</a>
-            </li>
-          </ul>
+        <div class="col-2 col-sm-3 col-xxl-2">
+          <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Explore</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Notification</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Messages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Lists</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Communities</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">More</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Nav</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Notification</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Messages</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lists</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Communities</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">More</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-9 col-md-6 col-xxl-8">
+        <div class="col-10 col-sm-9 col-md-6 col-xxl-8">
           <div class="card m-2">
             <div class="card-body">
               <h5 class="card-title">
